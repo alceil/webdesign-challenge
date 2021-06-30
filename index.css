@@ -1,0 +1,31 @@
+body {
+    background-image: url('bgm.png');
+  }
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button{
+    outline: none;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.playbutton{
+    display: flex;
+    justify-content: center;
+}
+
+
+.website{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
