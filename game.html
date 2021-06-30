@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <style>
-        body {
-    background-image: url('bgm.png');
-  }
-    </style>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dino Game</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
-<body onload="startGame()">
-    <script src="main.js" type="text/javascript"></script>
+<body>
+    <div id="container">
+        <div id="dino">
+            <img src="assets/dino.png" alt="dino">
+        </div>
+        <div id="block">
+            <img id="image" src="assets/block.png" alt="blocks">
+        </div>
+        <div id="road">
+            <img  src="assets/road.png" alt="road">
+        </div>
+        <div id="cloud">
+            <img src="assets/cloud.jpg" alt="cloud">
+        </div>
+        <div id="score">Score <b>00</b></div>
+        <div id="gameOver">Game Over</div>
+    </div>
+    <script src="js/file.js"></script>
 </body>
-
 </html>
